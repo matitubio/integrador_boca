@@ -1,0 +1,98 @@
+/* @media (max-width: 576px) {
+  .navbar_link {
+    background-color: var(--nav);
+    width: 100%;
+    height: calc(100vh-80px);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+
+  .navbar i {
+    display: block;
+  }
+
+  #toggle-menu:checked ~ .navbar_link {
+    display: flex;
+  }
+
+  
+} */
+
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .navbar i {
+    display: block; /* Mostrar el ícono del menú */
+  }
+
+  .navbar_link {
+    background-color: var(--nav);
+    width: 100%;
+    height: calc(100vh-80px);
+    position: absolute;
+    top: 80px;
+    left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none; /* Ocultar los enlaces de la barra de navegación */
+  }
+
+  #toggle-menu:checked + .navbar_link {
+    display: block; /* Mostrar los enlaces al hacer clic en el ícono del menú */
+  }
+
+  .hero_info h1 {
+    font-size: 2rem; /* Reducir el tamaño del título del hero */
+  }
+
+  /* Ajustar otros estilos para pantallas de 768px o menos */
+  /* Por ejemplo: */
+  main {
+    padding: 10px;
+  }
+
+  .beneficios {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .card_beneficio {
+    width: 100%;
+  }
+}
+
+/* Media query para dispositivos con un ancho de pantalla menor o igual a 320px */
+@media (max-width: 320px) {
+  .hero_info h1 {
+    font-size: 1.5rem; /* Reducir aún más el tamaño del título del hero */
+  }
+
+  /* Ajustar otros estilos para pantallas de 320px o menos */
+  /* Por ejemplo: */
+  main {
+    padding: 5px;
+  }
+
+  .beneficios {
+    gap: 10px;
+  }
+
+  .card_beneficio {
+    width: 100%;
+    padding: 20px 10px;
+  }
+}

@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./medias.css" />
 
     <link
       rel="stylesheet"
@@ -14,17 +15,23 @@
       type="image/jpg"
       href="./img/boca-juniors-logo-escudo-4-1.png"
     />
+    <link href="https://fonts.cdnfonts.com/css/college" rel="stylesheet" />
     <title>Boca desde la cuna</title>
   </head>
   <body>
     <header>
-      <img src="./img/lamitadmasuno.png" alt="Logo" />
-      <ul class="navbar_link">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Hincha</a></li>
-        <li><a href="#beneficios">Socio</a></li>
-        <li><a href="#">Contacto</a></li>
-      </ul>
+      <img src="./img/lamitadmasuno.png" alt="Logo" class="logo" />
+      <div class="navbar">
+        <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="toggle-menu" />
+        <ul class="navbar_link">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Hincha</a></li>
+          <li><a href="#beneficios">Socio</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+      <img src="./img/55272122.png" alt="userlog" class="userlog" />
     </header>
     <main>
       <div class="container">
@@ -32,12 +39,12 @@
           <div class="hero_info">
             <h1>La <span>LIBERTADORES</span> es mi obesesion</h1>
             <p>
-              Despues de 16 años de la ultima Libertadores de Boca, nos volvemos
-              a ilusionar, tenemos con que pelearla. Y vos podes estar ahi y ser
-              parte de esto.
+              Después de 16 años de la última Libertadores de Boca, nos volvemos
+              a ilusionar, tenemos con que pelearla. Vos podés estar ahí y ser
+              parte de esto
             </p>
           </div>
-          <img src="./img/martinpalermolibertadores.jpg" alt="" />
+          <!-- <img src="./img/martinpalermolibertadores.jpg" alt="" /> -->
         </div>
       </div>
       <section id="beneficios">

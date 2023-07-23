@@ -5,7 +5,7 @@ font-family: 'Noto Serif', serif;
 font-family: 'Open Sans', sans-serif; */
 
 :root {
-  --nav: #0036d4;
+  --nav: #00438a;
 }
 
 * {
@@ -26,14 +26,35 @@ header {
   background-color: #00438a;
   display: flex;
   justify-content: space-around;
+  align-items: center;
   padding: 10px 30px 10px 10px;
-  border-bottom: 1px solid rgba(187, 166, 166, 2);
+  /* border-bottom: 1px solid rgba(187, 166, 166, 2); */
   position: fixed;
   width: 100%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 1);
 }
 
-header img {
+.navbar {
+  display: flex;
+}
+
+.navbar i {
+  font-size: 50px;
+  color: wheat;
+  display: none;
+}
+
+#toggle-menu {
+  display: none;
+}
+
+.logo {
   width: 80px;
+  cursor: pointer;
+}
+
+.userlog {
+  width: 50px;
   cursor: pointer;
 }
 
@@ -68,42 +89,48 @@ a:focus {
 /* ===== Hero ===== */
 
 .container {
-  /* background-color: white; */
-
   display: flex;
   justify-content: center;
+  align-items: start;
+  background-image: url(./img/afternoon-barcelona-boca-juniors-bombonera.jpg);
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
 }
 
 .hero {
-  padding-top: 100px;
-  justify-content: center;
+  padding-top: 150px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 50px;
-  max-width: 600px;
-}
-
-.hero img {
-  border-radius: 10px;
-  width: 200px;
-  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  /* border: 1px solid red; */
+  /* max-width: 600px; */
 }
 
 .hero_info {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   gap: 10px;
   color: black;
 }
 
 .hero_info h1 {
-  font-family: "Open Sans", sans-serif;
-  text-align: end;
+  font-family: "College", sans-serif;
+  font-size: 4rem;
+  text-align: center;
 }
 
 .hero_info p {
-  text-align: end;
+  background-color: #efa94a;
+  text-align: center;
   font-family: "Noto Serif", serif;
   font-weight: 600;
 }
