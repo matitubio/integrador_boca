@@ -35,7 +35,7 @@
   }
 
   .navbar i {
-    display: block; /* Mostrar el ícono del menú */
+    display: flex; /* Mostrar el ícono del menú */
   }
 
   .navbar_link {
@@ -52,7 +52,7 @@
   }
 
   #toggle-menu:checked + .navbar_link {
-    display: block; /* Mostrar los enlaces al hacer clic en el ícono del menú */
+    display: flex; /* Mostrar los enlaces al hacer clic en el ícono del menú */
   }
 
   .hero_info h1 {
