@@ -45,6 +45,15 @@
     gap: 20px;
   } */
 
+  #beneficios {
+    gap: 20px;
+  }
+
+  .beneficios {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .card_beneficio {
     width: 100%;
   }
@@ -82,14 +91,8 @@
     padding: 5px;
   }
 
-  .beneficios {
-    flex-direction: column;
+  #beneficios {
     gap: 10px;
-  }
-
-  .card_beneficio {
-    width: 100%;
-    padding: 20px 10px;
   }
 
   #hincha {
