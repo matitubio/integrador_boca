@@ -77,6 +77,10 @@
     height: auto; /* Asegurar la altura automática para mantener la proporción */
     border-radius: 10px;
   }
+
+  .card_btn p {
+    white-space: nowrap; /* Evitar que el texto se parta en varios renglones */
+  }
 }
 
 /* Media query para dispositivos con un ancho de pantalla menor o igual a 320px */
