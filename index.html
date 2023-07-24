@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="medias.css" />
+    <!-- <link rel="stylesheet" href="medias.css" /> -->
 
     <link
       rel="stylesheet"
@@ -26,9 +26,9 @@
         <input type="checkbox" id="toggle-menu" />
         <ul class="navbar_link">
           <li><a href="#">Inicio</a></li>
-          <li><a href="#hincha">Hincha</a></li>
           <li><a href="#beneficios">Socio</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#hincha">Hincha</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
       </div>
       <div class="user">
@@ -40,7 +40,7 @@
       <div class="container">
         <div class="hero">
           <div class="hero_info">
-            <h1>La <span>LIBERTADORES</span> es mi obesesion</h1>
+            <h1>La copa <span>LIBERTADORES</span> es mi obesesion</h1>
             <p>
               Después de 16 años de la última Libertadores de Boca, nos volvemos
               a ilusionar, tenemos con que pelearla. Vos podés estar ahí y ser
@@ -179,6 +179,35 @@
           </div>
         </div>
       </section>
+      <section id="contacto">
+        <form action="#" class="contacto_formulario">
+          <div class="contacto_title">
+            <span>Comunicate para mas info</span>
+          </div>
+          <input type="text" id="nombre" placeholder="Ingresa tu nombre" />
+          <input type="email" id="mail" placeholder="Ingresas tu correo" />
+          <textarea
+            cols="20"
+            rows="5"
+            placeholder="Ingresa el motivo de contacto"
+          ></textarea>
+          <input class="submit" type="submit" value="Enviar" />
+        </form>
+
+        <div class="contacto_mapa">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1420.669860660136!2d-58.36607720312437!3d-34.63576927765059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334b6925e5473%3A0x1ca5b2748858b40d!2sEstadio%20Alberto%20J.%20Armando-%20La%20Bombonera!5e0!3m2!1ses-419!2sar!4v1690226561769!5m2!1ses-419!2sar"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
     </main>
+
+    <footer><h2>Aca va el footer</h2></footer>
   </body>
 </html>

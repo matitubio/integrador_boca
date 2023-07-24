@@ -20,6 +20,10 @@ body {
   background-color: #efa94a;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ===== Navbar ===== */
 
 header {
@@ -99,6 +103,14 @@ a:hover,
 a:focus {
   color: black;
   background-size: 100% 2px;
+}
+
+section#hincha {
+  scroll-margin-top: 80px;
+}
+
+section#beneficios {
+  scroll-margin-top: 50px;
 }
 
 /* ===== Hero ===== */
@@ -220,6 +232,10 @@ font-family: 'Open Sans', sans-serif; */
   gap: 20px;
 }
 
+#hincha h2 {
+  font-family: "Lato", sans-serif;
+}
+
 .products {
   display: flex;
   justify-content: center;
@@ -278,4 +294,66 @@ font-family: 'Open Sans', sans-serif; */
   background-color: #efa94a;
   color: black;
   transition: 0.5s;
+}
+
+/* ===== Contacto  ===== */
+
+#contacto {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./img/ABI6RVPO7BBERLLH7WX3LJJA74.jpg);
+  background-image: no-repeat;
+  background-image: fixed;
+  background-image: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  gap: 100px;
+}
+
+.contacto_mapa {
+  border-radius: 20px;
+  /* background-color: #efa94a; */
+}
+
+.contacto_formulario {
+  width: 400px;
+  background-color: #efa94a;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contacto_formulario input {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+}
+
+.contacto_title {
+  display: flex;
+  justify-content: center;
+}
+
+.contacto_title span {
+  font-family: "Noto Serif", serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.submit {
+  background-color: #00438a;
+  font-family: "Noto Serif", serif;
+  color: #efa94a;
+  font-size: 1.5rem;
+  border-radius: 15px;
+}
+
+footer {
+  background-color: #00438a;
 }
