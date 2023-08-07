@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <!-- <link rel="stylesheet" href="medias.css" /> -->
+    <link rel="stylesheet" href="medias.css" />
 
     <link
       rel="stylesheet"
@@ -29,11 +29,14 @@
           <li><a href="#beneficios">Socio</a></li>
           <li><a href="#hincha">Hincha</a></li>
           <li><a href="#contacto">Contacto</a></li>
+          <li><a href="#footer">Redes</a></li>
         </ul>
       </div>
       <div class="user">
-        <img src="./img/55272122.png" alt="userlog" class="userlog" />
-        <h3>INGRESA</h3>
+        <a href="./login_register/login.html"
+          ><img src="./img/55272122.png" alt="userlog" class="userlog"
+        /></a>
+        <a href="./login_register/login.html"><h3>INGRESA</h3></a>
       </div>
     </header>
     <main>
@@ -46,6 +49,7 @@
               a ilusionar, tenemos con que pelearla. Vos podés estar ahí y ser
               parte de esto
             </p>
+            <h2 class="hero_info-btn">VER MAS</h2>
           </div>
           <!-- <img src="./img/martinpalermolibertadores.jpg" alt="" /> -->
         </div>
@@ -184,12 +188,24 @@
           <div class="contacto_title">
             <span>Comunicate para mas info</span>
           </div>
-          <input type="text" id="nombre" placeholder="Ingresa tu nombre" />
-          <input type="email" id="mail" placeholder="Ingresas tu correo" />
+          <input
+            type="text"
+            id="nombre"
+            placeholder="Ingresa tu nombre"
+            required
+          />
+          <input
+            type="email"
+            id="mail"
+            placeholder="Ingresas tu correo"
+            required
+          />
           <textarea
             cols="20"
             rows="5"
             placeholder="Ingresa el motivo de contacto"
+            class="textarea"
+            required
           ></textarea>
           <input class="submit" type="submit" value="Enviar" />
         </form>
@@ -197,7 +213,7 @@
         <div class="contacto_mapa">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1420.669860660136!2d-58.36607720312437!3d-34.63576927765059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334b6925e5473%3A0x1ca5b2748858b40d!2sEstadio%20Alberto%20J.%20Armando-%20La%20Bombonera!5e0!3m2!1ses-419!2sar!4v1690226561769!5m2!1ses-419!2sar"
-            width="400"
+            width="450"
             height="300"
             style="border: 0"
             allowfullscreen=""
@@ -208,6 +224,34 @@
       </section>
     </main>
 
-    <footer><h2>Aca va el footer</h2></footer>
+    <footer id="footer">
+      <div class="footer_title">
+        <p>"Podrán imitarnos, pero igualarnos jamás</p>
+      </div>
+      <div class="footer_escudo">
+        <img src="./img/boca-juniors-logo-escudo-4-1.png" alt="escudoboca" />
+      </div>
+      <div class="footer_redes">
+        <a href="https://www.facebook.com/BocaJuniors"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          href="https://twitter.com/BocaJrsOficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="https://www.twitch.tv/bocajrstwitchoficial"
+          ><i class="fa-brands fa-twitch"></i
+        ></a>
+        <a href="https://www.instagram.com/bocajrsoficial/?hl=es"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://wa.me/543516816198"
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
+      </div>
+    </footer>
+    <div class="footer2">
+      <p>Hecho con 💙 por <b>Mati Tubio</b></p>
+    </div>
   </body>
 </html>

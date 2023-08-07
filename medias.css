@@ -1,115 +1,16 @@
-@media (max-width: 768px) {
-  header {
-    padding: 10px;
-  }
-
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .navbar i {
-    display: flex; /* Mostrar el ícono del menú */
-  }
-
-  .navbar_link {
-    background-color: var(--nav);
-    width: 100%;
-    height: calc(100vh-80px);
-    position: absolute;
-    top: 80px;
-    left: 0;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    display: none; /* Ocultar los enlaces de la barra de navegación */
-  }
-
-  #toggle-menu:checked + .navbar_link {
-    display: flex; /* Mostrar los enlaces al hacer clic en el ícono del menú */
-  }
-
-  .hero_info h1 {
-    font-size: 2rem; /* Reducir el tamaño del título del hero */
-  }
-
-  /* Ajustar otros estilos para pantallas de 768px o menos */
-  /* Por ejemplo: */
-  main {
-    padding: 10px;
-  }
-
-  /* .beneficios {
-    flex-direction: column;
-    gap: 20px;
-  } */
-
-  #beneficios {
-    gap: 20px;
-  }
-
-  .beneficios {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card_beneficio {
-    width: 100%;
-  }
-
-  #hincha {
-    padding-top: 30px; /* Reducir el espaciado superior */
-  }
-
-  .products {
-    max-width: 100%; /* Ajustar el ancho máximo al 100% del contenedor */
-    justify-content: center;
-  }
-
-  .card-product {
-    width: 30%; /* Reducir el ancho de los productos para que sean más pequeños */
-    padding: 5px; /* Reducir el padding del producto */
-  }
-
-  .card-product img {
-    width: 100%; /* Ajustar el ancho de la imagen al 100% del contenedor */
-    height: auto; /* Asegurar la altura automática para mantener la proporción */
-    border-radius: 10px;
-  }
-
-  .card_btn p {
-    white-space: nowrap; /* Evitar que el texto se parta en varios renglones */
-  }
+/* .navbar_link {
+  background-color: var(--nav);
+  width: 100%;
+  height: calc(100vh-80px);
+  position: absolute;
+  top: 80px;
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
 }
 
-/* Media query para dispositivos con un ancho de pantalla menor o igual a 320px */
-@media (max-width: 320px) {
-  .hero_info h1 {
-    font-size: 1.5rem; /* Reducir aún más el tamaño del título del hero */
-  }
-
-  /* Ajustar otros estilos para pantallas de 320px o menos */
-  /* Por ejemplo: */
-  main {
-    padding: 5px;
-  }
-
-  #beneficios {
-    gap: 10px;
-  }
-
-  #hincha {
-    padding-top: 20px; /* Reducir el espaciado superior aún más */
-  }
-
-  .products {
-    flex-direction: column; /* Mostrar los productos en una columna */
-    align-items: center; /* Centrar los productos en el contenedor */
-  }
-
-  .card-product {
-    width: 60%; /* Reducir aún más el ancho de los productos */
-    padding: 5px; /* Reducir el padding del producto */
-  }
-}
+#toggle-menu:checked + .navbar_link {
+  display: flex; 
+} */

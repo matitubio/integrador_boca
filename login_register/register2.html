@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../login_register/registerstyles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <title>Register</title>
+  </head>
+  <body>
+    <section id="register">
+      <div class="card_register">
+        <img src="../img/boca-juniors-logo-escudo-4-1.png" alt="escudo_boca" />
+        <div class="register_form">
+          <div class="register_label">
+            <label for="name">Nombre:</label>
+            <label for="apellido">Apellido:</label>
+            <label for="dni">DNI:</label>
+            <label for="email">E-mail:</label>
+            <label for="clave">Clave:</label>
+            <label for="claver">Repita Clave:</label>
+            <div class="terminosycondiciones">
+              <input type="checkbox" id="termycond" />
+              <label for="termycond"
+                >Acepto los <span>términos y condiciones</span></label
+              >
+            </div>
+          </div>
+          <div class="register_input">
+            <input type="text" id="name" placeholder="Lionel Andres" />
+            <input type="text" id="apellido" placeholder="Messi" />
+            <input type="text" id="dni" placeholder="37926457" />
+            <input type="email" id="email" placeholder="leomessi@gmail.com" />
+
+            <div class="tooltip-container">
+              <input
+                type="password"
+                id="clave"
+                placeholder="Ingrese su clave"
+              />
+              <span class="tooltip"
+                >Debe contener al menos 8 caracteres, una mayúscula y un
+                símbolo, */#$%&
+              </span>
+            </div>
+            <input type="password" id="clave" placeholder="Repita su clave" />
+            <div class="newlester">
+              <input type="checkbox" id="newsletter" />
+              <label for="newsletter"
+                >Deseo recibir información del Mundo BOCA</label
+              >
+            </div>
+          </div>
+        </div>
+        <div class="btn">
+          <a href="#"> <button>Crear Cuenta</button></a>
+          <a href="../index.html"><button>Volver</button></a>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="footer_title">
+        <p>"Podrán imitarnos, pero igualarnos jamás</p>
+      </div>
+
+      <div class="footer_redes">
+        <a href="https://www.facebook.com/BocaJuniors"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          href="https://twitter.com/BocaJrsOficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+          ><i class="fa-brands fa-twitter"></i
+        ></a>
+        <a href="https://www.twitch.tv/bocajrstwitchoficial"
+          ><i class="fa-brands fa-twitch"></i
+        ></a>
+        <a href="https://www.instagram.com/bocajrsoficial/?hl=es"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://wa.me/543516816198"
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
+      </div>
+    </footer>
+    <div class="footer2">
+      <p>Hecho con 💙 por <b>Mati Tubio</b></p>
+    </div>
+  </body>
+</html>

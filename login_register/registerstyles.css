@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Noto+Serif:wght@100;200;300;400&family=Open+Sans:wght@300;400;600&display=swap");
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Open Sans', sans-serif; */
+
+:root {
+  --nav: #00438a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  /* border: 1px solid red; */
+}
+body {
+  background-color: #efa94a;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* ===== Login ===== */
+
+#register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 50px;
+}
+
+img {
+  width: 100px;
+}
+
+.card_register {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: wheat;
+  padding: 20px 10px;
+  border-radius: 20px;
+  /* width: 350px; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 1);
+}
+
+.register_form {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.register_label {
+  display: flex;
+  flex-direction: column;
+  /* align-items: end; */
+  gap: 5px;
+}
+
+.register_input {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+label {
+  font-weight: 900;
+}
+
+.btn {
+  display: flex;
+  gap: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: var(--nav);
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+input {
+  border: 2px solid #efa94a;
+  padding: 3px;
+  /* width: 400px; */
+  font-weight: 500;
+}
+
+option {
+  background-color: #efa94a;
+  border: 2px solid #efa94a;
+}
+
+input:hover {
+  border: 2px solid var(--nav);
+}
+
+a:visited {
+  color: var(--nav);
+}
+
+/* ===== Footer  ===== */
+
+footer {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--nav);
+  gap: 10px;
+}
+
+footer img {
+  width: 100px;
+}
+
+.footer_title {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.footer_redes {
+  font-size: 40px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.footer_redes i {
+  color: black;
+  background-color: var(--nav);
+  transition: 0.1s;
+}
+
+.footer_redes i:hover {
+  color: var(--nav);
+  background-color: #efa94a;
+  border-radius: 50%;
+  padding: 10px;
+  transition: 0.1s;
+}
+
+.footer2 {
+  padding: 10px;
+  background-color: black;
+  color: wheat;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_redes a {
+  color: black;
+}
+.footer_redes a:visited {
+  color: black;
+}
+
+.tooltip-container {
+  position: relative;
+}
+
+.tooltip {
+  position: absolute;
+  display: none;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 13px;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tooltip-container:hover .tooltip {
+  display: block;
+}
+
+.terminosycondiciones span {
+  color: #00438a;
+  cursor: pointer;
+}

@@ -27,7 +27,7 @@ html {
 /* ===== Navbar ===== */
 
 header {
-  background-color: #00438a;
+  background-color: var(--nav);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -101,7 +101,7 @@ header {
 
 a:hover,
 a:focus {
-  color: black;
+  color: #efa94a;
   background-size: 100% 2px;
 }
 
@@ -110,7 +110,11 @@ section#hincha {
 }
 
 section#beneficios {
-  scroll-margin-top: 50px;
+  scroll-margin-top: 60px;
+}
+
+section#contacto {
+  scroll-margin-top: 90px;
 }
 
 /* ===== Hero ===== */
@@ -162,6 +166,26 @@ section#beneficios {
   font-weight: 600;
 }
 
+.hero_info-btn {
+  padding: 10px;
+  border-radius: 7px;
+  font-family: "Noto Serif", serif;
+  font-weight: 100;
+  font-size: 15px;
+  background-color: var(--nav);
+  color: wheat;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 1);
+  transition: 0.5s;
+}
+
+.hero_info-btn:hover {
+  background-color: #efa94a;
+  color: black;
+  font-weight: 500;
+  transition: 0.5s;
+}
+
 /* ===== Beneficios ===== */
 
 #beneficios {
@@ -199,6 +223,7 @@ section#beneficios {
   border-radius: 10px;
   gap: 15px;
   cursor: pointer;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 1);
 }
 
 .card_beneficio i {
@@ -288,6 +313,7 @@ font-family: 'Open Sans', sans-serif; */
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .card_btn p:hover {
@@ -312,11 +338,12 @@ font-family: 'Open Sans', sans-serif; */
   -o-background-size: cover;
   background-size: cover;
   height: 600px;
-  gap: 100px;
+  gap: 10px;
 }
 
-.contacto_mapa {
-  border-radius: 20px;
+iframe {
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 1);
   /* background-color: #efa94a; */
 }
 
@@ -324,20 +351,37 @@ font-family: 'Open Sans', sans-serif; */
   width: 400px;
   background-color: #efa94a;
   padding: 10px 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  /* border: 2px solid black; */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 1);
 }
 
+.contacto_formulario {
+  gap: 10px;
+}
 .contacto_formulario input {
+  padding: 5px;
+  border-radius: 5px;
   font-family: "Open Sans", sans-serif;
   font-weight: bolder;
+  font-size: 1rem;
+}
+
+.textarea {
+  padding: 5px;
+  border-radius: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bolder;
+  font-size: 1rem;
 }
 
 .contacto_title {
   display: flex;
   justify-content: center;
+  font-size: 1.5rem;
 }
 
 .contacto_title span {
@@ -347,13 +391,68 @@ font-family: 'Open Sans', sans-serif; */
 }
 
 .submit {
-  background-color: #00438a;
+  background-color: var(--nav);
   font-family: "Noto Serif", serif;
-  color: #efa94a;
-  font-size: 1.5rem;
+  color: white;
+  font-size: 1.2rem;
   border-radius: 15px;
 }
 
+/* ===== Footer  ===== */
+
 footer {
-  background-color: #00438a;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--nav);
+  gap: 10px;
+}
+
+footer img {
+  width: 100px;
+}
+
+.footer_title {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.footer_redes {
+  font-size: 40px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.footer_redes i {
+  color: black;
+  background-color: var(--nav);
+  transition: 0.1s;
+}
+
+.footer_redes i:hover {
+  color: var(--nav);
+  background-color: #efa94a;
+  border-radius: 50%;
+  padding: 10px;
+  transition: 0.1s;
+}
+
+.footer2 {
+  padding: 10px;
+  background-color: black;
+  color: wheat;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_redes a {
+  color: black;
+}
+.footer_redes a:visited {
+  color: black;
 }
