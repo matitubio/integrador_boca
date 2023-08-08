@@ -73,12 +73,19 @@
     height: 250px;
   }
 
-  footer {
-    gap: 20px;
-  }
-
   .footer_redes {
     font-size: 30px;
+  }
+
+  footer {
+    gap: 1px;
+  }
+  footer p {
+    text-align: center;
+  }
+
+  footer img {
+    width: 60px;
   }
 }
 
