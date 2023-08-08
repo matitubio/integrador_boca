@@ -14,3 +14,161 @@
 #toggle-menu:checked + .navbar_link {
   display: flex; 
 } */
+
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  .navbar {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar i {
+    display: block;
+  }
+
+  .navbar_link {
+    position: fixed;
+    top: 90px;
+    left: 0;
+    width: 100%;
+    background-color: var(--nav);
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .navbar_link a {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+
+  #toggle-menu:checked + .navbar_link {
+    display: flex;
+  }
+
+  .hero_info h1 {
+    font-size: 3rem;
+  }
+
+  .beneficios {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #contacto {
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+  }
+
+  .contacto_mapa iframe {
+    width: 300px;
+    height: 250px;
+  }
+
+  footer {
+    gap: 20px;
+  }
+
+  .footer_redes {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 320px) {
+  .user {
+    gap: 1px;
+  }
+
+  .user img {
+    width: 40px;
+  }
+
+  .user h3 {
+    font-size: 0.7rem;
+  }
+
+  .hero_info h1 {
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .hero_info p {
+    font-size: 0.8rem;
+    padding: 10px;
+  }
+
+  .beneficios {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .card_beneficio {
+    width: 80px;
+    height: 100px;
+    gap: 1px;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .card_beneficio i {
+    font-size: 1rem;
+  }
+
+  .card_beneficio h3 {
+    font-size: 0.7rem;
+  }
+
+  .card_beneficio p {
+    font-size: 0.4rem;
+  }
+
+  .contacto_formulario {
+    width: 300px;
+  }
+
+  .products {
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 100px 100px;
+  }
+
+  .card-product {
+    justify-content: space-between;
+  }
+
+  .card-product img {
+    width: 80px;
+  }
+
+  .card-product p {
+    font-size: 0.8rem;
+  }
+
+  .contacto_formulario span {
+    font-size: 1rem;
+  }
+
+  .contacto_formulario input {
+    font-size: 0.8rem;
+  }
+
+  footer {
+    gap: 1px;
+  }
+  footer p {
+    text-align: center;
+  }
+
+  footer img {
+    width: 60px;
+  }
+}

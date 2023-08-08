@@ -6,6 +6,7 @@ font-family: 'Open Sans', sans-serif; */
 
 :root {
   --nav: #00438a;
+  --body: #efa94a;
 }
 
 * {
@@ -17,7 +18,7 @@ font-family: 'Open Sans', sans-serif; */
   /* border: 1px solid red; */
 }
 body {
-  background-color: #efa94a;
+  background-color: var(--body);
 }
 
 html {
@@ -101,7 +102,7 @@ header {
 
 a:hover,
 a:focus {
-  color: #efa94a;
+  color: var(--body);
   background-size: 100% 2px;
 }
 
@@ -119,7 +120,7 @@ section#contacto {
 
 /* ===== Hero ===== */
 
-.container {
+.container_hero {
   display: flex;
   justify-content: center;
   align-items: start;
@@ -132,6 +133,7 @@ section#contacto {
   -o-background-size: cover;
   background-size: cover;
   height: 600px;
+  max-width: 100%;
 }
 
 .hero {
@@ -160,7 +162,7 @@ section#contacto {
 }
 
 .hero_info p {
-  background-color: #efa94a;
+  background-color: var(--body);
   text-align: center;
   font-family: "Noto Serif", serif;
   font-weight: 600;
@@ -180,7 +182,7 @@ section#contacto {
 }
 
 .hero_info-btn:hover {
-  background-color: #efa94a;
+  background-color: var(--body);
   color: black;
   font-weight: 500;
   transition: 0.5s;
@@ -317,7 +319,7 @@ font-family: 'Open Sans', sans-serif; */
 }
 
 .card_btn p:hover {
-  background-color: #efa94a;
+  background-color: var(--body);
   color: black;
   transition: 0.5s;
 }
@@ -349,7 +351,7 @@ iframe {
 
 .contacto_formulario {
   width: 400px;
-  background-color: #efa94a;
+  background-color: var(--body);
   padding: 10px 20px;
   border-radius: 10px;
   display: flex;
@@ -436,7 +438,7 @@ footer img {
 
 .footer_redes i:hover {
   color: var(--nav);
-  background-color: #efa94a;
+  background-color: var(--body);
   border-radius: 50%;
   padding: 10px;
   transition: 0.1s;
@@ -456,3 +458,5 @@ footer img {
 .footer_redes a:visited {
   color: black;
 }
+
+/* =============Medias=============== */
