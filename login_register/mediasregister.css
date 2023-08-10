@@ -1,0 +1,37 @@
+@media (max-width: 600px) {
+  .card_register {
+    width: 90%;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  img {
+    width: 50px;
+  }
+
+  .btn {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  footer {
+    gap: 0.5px;
+  }
+
+  .footer_title p {
+    font-size: 1rem;
+  }
+
+  .footer_redes i {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 510px) {
+  .card_register {
+    flex-wrap: wrap;
+  }
+}

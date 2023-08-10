@@ -1,0 +1,30 @@
+@media (max-width: 450px) {
+  .check {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .check label {
+    flex-direction: row;
+  }
+
+  .btn {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  footer {
+    gap: 0.5px;
+  }
+
+  .footer_title p {
+    font-size: 1rem;
+  }
+
+  .footer_redes i {
+    font-size: 2rem;
+  }
+}
