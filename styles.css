@@ -350,7 +350,8 @@ iframe {
 }
 
 .contacto_formulario {
-  width: 400px;
+  width: 450px;
+  height: 300px;
   background-color: var(--body);
   padding: 10px 20px;
   border-radius: 10px;
@@ -364,12 +365,21 @@ iframe {
 .contacto_formulario {
   gap: 10px;
 }
+
 .contacto_formulario input {
   padding: 5px;
   border-radius: 5px;
   font-family: "Open Sans", sans-serif;
   font-weight: bolder;
   font-size: 1rem;
+}
+
+.contacto_formulario input:hover {
+  border: 2px solid var(--nav);
+}
+
+.contacto_formulario textarea:hover {
+  border: 2px solid var(--nav);
 }
 
 .textarea {
