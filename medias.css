@@ -159,16 +159,17 @@
 
   .products {
     display: grid;
-    grid-gap: 2rem;
-    grid-template-columns: 100px 100px;
+    grid-gap: 1rem;
+    grid-template-columns: 150px 150px;
   }
 
   .card-product {
     justify-content: space-between;
+    align-items: center;
   }
 
   .card-product img {
-    width: 80px;
+    width: 140px;
   }
 
   .card-product p {
