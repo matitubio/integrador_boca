@@ -54,11 +54,6 @@
   }
 
   .beneficios {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .beneficios {
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
@@ -134,23 +129,23 @@
   }
 
   .card_beneficio {
-    width: 80px;
-    height: 100px;
-    gap: 1px;
+    width: 90px;
+    height: 130px;
+    gap: 5px;
     justify-content: center;
     padding: 5px;
   }
 
   .card_beneficio i {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 
   .card_beneficio h3 {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
   }
 
   .card_beneficio p {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
   }
 
   .contacto_formulario {
