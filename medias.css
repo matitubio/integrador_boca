@@ -129,8 +129,8 @@
   }
 
   .card_beneficio {
-    width: 90px;
-    height: 130px;
+    width: 120px;
+    height: 140px;
     gap: 5px;
     justify-content: center;
     padding: 5px;
@@ -193,5 +193,15 @@
 
   footer img {
     width: 60px;
+  }
+}
+
+@media (max-width: 320px) {
+  .card_beneficio {
+    width: 90px;
+    height: 130px;
+    gap: 5px;
+    justify-content: center;
+    padding: 5px;
   }
 }
